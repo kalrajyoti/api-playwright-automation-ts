@@ -1,0 +1,303 @@
+{
+  "fileId": "aba107467e9ce460ba2a523c15fff792e18a764a",
+  "fileName": "tests/api/servicenow.spec.ts",
+  "tests": [
+    {
+      "testId": "aba107467e9ce460ba2a523c15fff792e18a764a-7e0988113e910e6ceceac0d488ec511887092756",
+      "title": "focus this test",
+      "projectName": "Chromium",
+      "location": {
+        "file": "tests/api/servicenow.spec.ts",
+        "line": 7,
+        "column": 6
+      },
+      "duration": 9,
+      "outcome": "expected",
+      "path": [
+        "tests/api/servicenow.spec.ts:7"
+      ],
+      "results": [
+        {
+          "duration": 9,
+          "startTime": "2023-01-05T13:15:44.385Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:15:44.386Z",
+              "duration": 6,
+              "steps": []
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:15:44.392Z",
+              "duration": 2,
+              "steps": []
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": []
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "aba107467e9ce460ba2a523c15fff792e18a764a-11814e7b632e3155ae639c5ea541503663e683c8",
+      "title": "Get an Incident",
+      "projectName": "Chromium",
+      "location": {
+        "file": "tests/api/servicenow.spec.ts",
+        "line": 29,
+        "column": 6
+      },
+      "duration": 1689,
+      "outcome": "unexpected",
+      "path": [
+        "tests/api/servicenow.spec.ts:29"
+      ],
+      "results": [
+        {
+          "duration": 1689,
+          "startTime": "2023-01-05T13:15:44.394Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:15:44.394Z",
+              "duration": 1,
+              "steps": []
+            },
+            {
+              "title": "expect.toBe",
+              "startTime": "2023-01-05T13:15:46.079Z",
+              "duration": 2,
+              "snippet": "\u001b[0m \u001b[90m 36 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m     expect(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mtoMatchObject({\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/api/servicenow.spec.ts",
+                "line": 37,
+                "column": 32
+              },
+              "error": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m"
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:15:46.082Z",
+              "duration": 1,
+              "steps": []
+            }
+          ],
+          "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 35 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 37 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m     expect(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mtoMatchObject({\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m         result\u001b[33m:\u001b[39m [{ short_description\u001b[33m:\u001b[39m short_description\u001b[33m,\u001b[39m category\u001b[33m:\u001b[39m \u001b[32m'hardware'\u001b[39m }]\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m     })\u001b[0m\n\n\u001b[2m    at /Users/jyoti.kalra/Downloads/udemy-playwright 8/tests/api/servicenow.spec.ts:37:32\u001b[22m\n\u001b[2m    at WorkerRunner._runTestWithBeforeHooks (/Users/jyoti.kalra/Downloads/udemy-playwright 8/node_modules/@playwright/test/lib/workerRunner.js:478:7)\u001b[22m",
+          "status": "failed",
+          "attachments": [
+            {
+              "name": "stdout",
+              "contentType": "text/plain",
+              "body": "{\n  error: {\n    message: \u001b[32m'User Not Authenticated'\u001b[39m,\n    detail: \u001b[32m'Required to provide Auth information'\u001b[39m\n  },\n  status: \u001b[32m'failure'\u001b[39m\n}\n"
+            }
+          ]
+        }
+      ],
+      "ok": false
+    },
+    {
+      "testId": "aba107467e9ce460ba2a523c15fff792e18a764a-ac9ff060145ac9d0242deed7d7f62d31da4a52c5",
+      "title": "focus this test",
+      "projectName": "Firefox",
+      "location": {
+        "file": "tests/api/servicenow.spec.ts",
+        "line": 7,
+        "column": 6
+      },
+      "duration": 19,
+      "outcome": "expected",
+      "path": [
+        "tests/api/servicenow.spec.ts:7"
+      ],
+      "results": [
+        {
+          "duration": 19,
+          "startTime": "2023-01-05T13:15:46.804Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:15:46.805Z",
+              "duration": 16,
+              "steps": []
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:15:46.822Z",
+              "duration": 1,
+              "steps": []
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": []
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "aba107467e9ce460ba2a523c15fff792e18a764a-9a4a479c037e75e8aaf170480b76f4cb8f7c36b6",
+      "title": "Get an Incident",
+      "projectName": "Firefox",
+      "location": {
+        "file": "tests/api/servicenow.spec.ts",
+        "line": 29,
+        "column": 6
+      },
+      "duration": 1544,
+      "outcome": "unexpected",
+      "path": [
+        "tests/api/servicenow.spec.ts:29"
+      ],
+      "results": [
+        {
+          "duration": 1544,
+          "startTime": "2023-01-05T13:15:46.824Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:15:46.824Z",
+              "duration": 1,
+              "steps": []
+            },
+            {
+              "title": "expect.toBe",
+              "startTime": "2023-01-05T13:15:48.366Z",
+              "duration": 1,
+              "snippet": "\u001b[0m \u001b[90m 36 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m     expect(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mtoMatchObject({\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/api/servicenow.spec.ts",
+                "line": 37,
+                "column": 32
+              },
+              "error": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m"
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:15:48.368Z",
+              "duration": 0,
+              "steps": []
+            }
+          ],
+          "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 35 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 37 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m     expect(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mtoMatchObject({\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m         result\u001b[33m:\u001b[39m [{ short_description\u001b[33m:\u001b[39m short_description\u001b[33m,\u001b[39m category\u001b[33m:\u001b[39m \u001b[32m'hardware'\u001b[39m }]\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m     })\u001b[0m\n\n\u001b[2m    at /Users/jyoti.kalra/Downloads/udemy-playwright 8/tests/api/servicenow.spec.ts:37:32\u001b[22m\n\u001b[2m    at WorkerRunner._runTestWithBeforeHooks (/Users/jyoti.kalra/Downloads/udemy-playwright 8/node_modules/@playwright/test/lib/workerRunner.js:478:7)\u001b[22m",
+          "status": "failed",
+          "attachments": [
+            {
+              "name": "stdout",
+              "contentType": "text/plain",
+              "body": "{\n  error: {\n    message: \u001b[32m'User Not Authenticated'\u001b[39m,\n    detail: \u001b[32m'Required to provide Auth information'\u001b[39m\n  },\n  status: \u001b[32m'failure'\u001b[39m\n}\n"
+            }
+          ]
+        }
+      ],
+      "ok": false
+    },
+    {
+      "testId": "aba107467e9ce460ba2a523c15fff792e18a764a-1121984f4ca2db05ffee7df93f293ff427572d8c",
+      "title": "focus this test",
+      "projectName": "Webkit",
+      "location": {
+        "file": "tests/api/servicenow.spec.ts",
+        "line": 7,
+        "column": 6
+      },
+      "duration": 49,
+      "outcome": "expected",
+      "path": [
+        "tests/api/servicenow.spec.ts:7"
+      ],
+      "results": [
+        {
+          "duration": 49,
+          "startTime": "2023-01-05T13:15:57.156Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:15:57.158Z",
+              "duration": 40,
+              "steps": []
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:15:57.199Z",
+              "duration": 6,
+              "steps": []
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": []
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "aba107467e9ce460ba2a523c15fff792e18a764a-20e9970f60d81f957f0daad630b7710e7f878bb6",
+      "title": "Get an Incident",
+      "projectName": "Webkit",
+      "location": {
+        "file": "tests/api/servicenow.spec.ts",
+        "line": 29,
+        "column": 6
+      },
+      "duration": 1587,
+      "outcome": "unexpected",
+      "path": [
+        "tests/api/servicenow.spec.ts:29"
+      ],
+      "results": [
+        {
+          "duration": 1587,
+          "startTime": "2023-01-05T13:15:57.206Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:15:57.206Z",
+              "duration": 4,
+              "steps": []
+            },
+            {
+              "title": "expect.toBe",
+              "startTime": "2023-01-05T13:15:58.790Z",
+              "duration": 2,
+              "snippet": "\u001b[0m \u001b[90m 36 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m     expect(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mtoMatchObject({\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/api/servicenow.spec.ts",
+                "line": 37,
+                "column": 32
+              },
+              "error": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m"
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:15:58.792Z",
+              "duration": 1,
+              "steps": []
+            }
+          ],
+          "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 35 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 37 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m     expect(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mtoMatchObject({\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m         result\u001b[33m:\u001b[39m [{ short_description\u001b[33m:\u001b[39m short_description\u001b[33m,\u001b[39m category\u001b[33m:\u001b[39m \u001b[32m'hardware'\u001b[39m }]\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m     })\u001b[0m\n\n\u001b[2m    at /Users/jyoti.kalra/Downloads/udemy-playwright 8/tests/api/servicenow.spec.ts:37:32\u001b[22m\n\u001b[2m    at WorkerRunner._runTestWithBeforeHooks (/Users/jyoti.kalra/Downloads/udemy-playwright 8/node_modules/@playwright/test/lib/workerRunner.js:478:7)\u001b[22m",
+          "status": "failed",
+          "attachments": [
+            {
+              "name": "stdout",
+              "contentType": "text/plain",
+              "body": "{\n  error: {\n    message: \u001b[32m'User Not Authenticated'\u001b[39m,\n    detail: \u001b[32m'Required to provide Auth information'\u001b[39m\n  },\n  status: \u001b[32m'failure'\u001b[39m\n}\n"
+            }
+          ]
+        }
+      ],
+      "ok": false
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "fileId": "1966c97e0880d4dc30b9ee235107336b8f13c1d0",
+  "fileName": "tests/example.spec.ts",
+  "tests": [
+    {
+      "testId": "1966c97e0880d4dc30b9ee235107336b8f13c1d0-ad324e60573b1bac0fc3aa8c02b4c730d229bc54",
+      "title": "Screenshots",
+      "projectName": "Chromium",
+      "location": {
+        "file": "tests/example.spec.ts",
+        "line": 72,
+        "column": 3
+      },
+      "duration": 3104,
+      "outcome": "expected",
+      "path": [
+        "tests/example.spec.ts:72",
+        "Hooks"
+      ],
+      "results": [
+        {
+          "duration": 3104,
+          "startTime": "2023-01-05T13:15:45.283Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:15:45.284Z",
+              "duration": 2326,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2023-01-05T13:15:45.497Z",
+                  "duration": 473,
+                  "steps": []
+                },
+                {
+                  "title": "page.goto(https://example.com/)",
+                  "startTime": "2023-01-05T13:15:45.971Z",
+                  "duration": 1639,
+                  "snippet": "\u001b[0m \u001b[90m 68 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 69 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://example.com/'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m   })\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "tests/example.spec.ts",
+                    "line": 69,
+                    "column": 16
+                  }
+                }
+              ]
+            },
+            {
+              "title": "page.screenshot",
+              "startTime": "2023-01-05T13:15:47.611Z",
+              "duration": 111,
+              "snippet": "\u001b[0m \u001b[90m 75 |\u001b[39m     \u001b[90m// 2. take screenshot of full page\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 76 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m'screenshot.png'\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 77 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/example.spec.ts",
+                "line": 76,
+                "column": 16
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:15:47.723Z",
+              "duration": 663,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2023-01-05T13:15:47.850Z",
+                  "duration": 534,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/378cb87eb3c13b37d7ebac465206136826a40ed7.png"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "1966c97e0880d4dc30b9ee235107336b8f13c1d0-6c26a1581726b1915fba89eb6da79d728e92dd7f",
+      "title": "Single element Screenshot",
+      "projectName": "Chromium",
+      "location": {
+        "file": "tests/example.spec.ts",
+        "line": 79,
+        "column": 3
+      },
+      "duration": 3900,
+      "outcome": "expected",
+      "path": [
+        "tests/example.spec.ts:79",
+        "Hooks"
+      ],
+      "results": [
+        {
+          "duration": 3900,
+          "startTime": "2023-01-05T13:15:45.910Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:15:45.910Z",
+              "duration": 2642,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2023-01-05T13:15:46.156Z",
+                  "duration": 642,
+                  "steps": []
+                },
+                {
+                  "title": "page.goto(https://example.com/)",
+                  "startTime": "2023-01-05T13:15:46.802Z",
+                  "duration": 1749,
+                  "snippet": "\u001b[0m \u001b[90m 68 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 69 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://example.com/'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m   })\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "tests/example.spec.ts",
+                    "line": 69,
+                    "column": 16
+                  }
+                }
+              ]
+            },
+            {
+              "title": "page.$(h1)",
+              "startTime": "2023-01-05T13:15:48.552Z",
+              "duration": 15,
+              "snippet": "\u001b[0m \u001b[90m 80 |\u001b[39m     \u001b[90m// await page.goto('https://example.com/')\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 81 |\u001b[39m     \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 82 |\u001b[39m     \u001b[36mawait\u001b[39m element\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m'single_element_screenshot.png'\u001b[39m })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/example.spec.ts",
+                "line": 81,
+                "column": 32
+              }
+            },
+            {
+              "title": "elementHandle.screenshot",
+              "startTime": "2023-01-05T13:15:48.568Z",
+              "duration": 58,
+              "snippet": "\u001b[0m \u001b[90m 81 |\u001b[39m     \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 82 |\u001b[39m     \u001b[36mawait\u001b[39m element\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m'single_element_screenshot.png'\u001b[39m })\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 83 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/example.spec.ts",
+                "line": 82,
+                "column": 19
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:15:48.626Z",
+              "duration": 1184,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2023-01-05T13:15:48.755Z",
+                  "duration": 1054,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/378cb87eb3c13b37d7ebac465206136826a40ed7.png"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "1966c97e0880d4dc30b9ee235107336b8f13c1d0-e5728617a15508d2232fbc1a9f2441290ea1caa6",
+      "title": "Screenshots",
+      "projectName": "Firefox",
+      "location": {
+        "file": "tests/example.spec.ts",
+        "line": 72,
+        "column": 3
+      },
+      "duration": 4568,
+      "outcome": "expected",
+      "path": [
+        "tests/example.spec.ts:72",
+        "Hooks"
+      ],
+      "results": [
+        {
+          "duration": 4568,
+          "startTime": "2023-01-05T13:15:50.652Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:15:50.653Z",
+              "duration": 4090,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2023-01-05T13:15:52.540Z",
+                  "duration": 782,
+                  "steps": []
+                },
+                {
+                  "title": "page.goto(https://example.com/)",
+                  "startTime": "2023-01-05T13:15:53.324Z",
+                  "duration": 1419,
+                  "snippet": "\u001b[0m \u001b[90m 68 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 69 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://example.com/'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m   })\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "tests/example.spec.ts",
+                    "line": 69,
+                    "column": 16
+                  }
+                }
+              ]
+            },
+            {
+              "title": "page.screenshot",
+              "startTime": "2023-01-05T13:15:54.744Z",
+              "duration": 80,
+              "snippet": "\u001b[0m \u001b[90m 75 |\u001b[39m     \u001b[90m// 2. take screenshot of full page\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 76 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m'screenshot.png'\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 77 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/example.spec.ts",
+                "line": 76,
+                "column": 16
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:15:54.824Z",
+              "duration": 396,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2023-01-05T13:15:54.957Z",
+                  "duration": 261,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/63549fc94b6b70624582e2e5f66da0f23f34f50a.png"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "1966c97e0880d4dc30b9ee235107336b8f13c1d0-e692b61a2e88a6d1fb7967a26cc4014a74052192",
+      "title": "Single element Screenshot",
+      "projectName": "Firefox",
+      "location": {
+        "file": "tests/example.spec.ts",
+        "line": 79,
+        "column": 3
+      },
+      "duration": 5873,
+      "outcome": "expected",
+      "path": [
+        "tests/example.spec.ts:79",
+        "Hooks"
+      ],
+      "results": [
+        {
+          "duration": 5873,
+          "startTime": "2023-01-05T13:15:54.546Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:15:54.546Z",
+              "duration": 5073,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2023-01-05T13:15:57.335Z",
+                  "duration": 859,
+                  "steps": []
+                },
+                {
+                  "title": "page.goto(https://example.com/)",
+                  "startTime": "2023-01-05T13:15:58.196Z",
+                  "duration": 1423,
+                  "snippet": "\u001b[0m \u001b[90m 68 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 69 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://example.com/'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m   })\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "tests/example.spec.ts",
+                    "line": 69,
+                    "column": 16
+                  }
+                }
+              ]
+            },
+            {
+              "title": "page.$(h1)",
+              "startTime": "2023-01-05T13:15:59.620Z",
+              "duration": 28,
+              "snippet": "\u001b[0m \u001b[90m 80 |\u001b[39m     \u001b[90m// await page.goto('https://example.com/')\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 81 |\u001b[39m     \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 82 |\u001b[39m     \u001b[36mawait\u001b[39m element\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m'single_element_screenshot.png'\u001b[39m })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/example.spec.ts",
+                "line": 81,
+                "column": 32
+              }
+            },
+            {
+              "title": "elementHandle.screenshot",
+              "startTime": "2023-01-05T13:15:59.650Z",
+              "duration": 107,
+              "snippet": "\u001b[0m \u001b[90m 81 |\u001b[39m     \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 82 |\u001b[39m     \u001b[36mawait\u001b[39m element\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m'single_element_screenshot.png'\u001b[39m })\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 83 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/example.spec.ts",
+                "line": 82,
+                "column": 19
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:15:59.758Z",
+              "duration": 661,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2023-01-05T13:15:59.894Z",
+                  "duration": 523,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/63549fc94b6b70624582e2e5f66da0f23f34f50a.png"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "1966c97e0880d4dc30b9ee235107336b8f13c1d0-fdd3ed763edabe6503c809269e805b3ff2b94867",
+      "title": "Screenshots",
+      "projectName": "Webkit",
+      "location": {
+        "file": "tests/example.spec.ts",
+        "line": 72,
+        "column": 3
+      },
+      "duration": 2763,
+      "outcome": "expected",
+      "path": [
+        "tests/example.spec.ts:72",
+        "Hooks"
+      ],
+      "results": [
+        {
+          "duration": 2763,
+          "startTime": "2023-01-05T13:16:02.501Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:16:02.506Z",
+              "duration": 2571,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2023-01-05T13:16:02.783Z",
+                  "duration": 593,
+                  "steps": []
+                },
+                {
+                  "title": "page.goto(https://example.com/)",
+                  "startTime": "2023-01-05T13:16:03.386Z",
+                  "duration": 1691,
+                  "snippet": "\u001b[0m \u001b[90m 68 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 69 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://example.com/'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m   })\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "tests/example.spec.ts",
+                    "line": 69,
+                    "column": 16
+                  }
+                }
+              ]
+            },
+            {
+              "title": "page.screenshot",
+              "startTime": "2023-01-05T13:16:05.078Z",
+              "duration": 60,
+              "snippet": "\u001b[0m \u001b[90m 75 |\u001b[39m     \u001b[90m// 2. take screenshot of full page\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 76 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m'screenshot.png'\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 77 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/example.spec.ts",
+                "line": 76,
+                "column": 16
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:16:05.138Z",
+              "duration": 127,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2023-01-05T13:16:05.228Z",
+                  "duration": 29,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/2c781961e1a8fe291fece703f7aed30340cfea36.png"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "1966c97e0880d4dc30b9ee235107336b8f13c1d0-f1ae8f4df0af621b8b3dc31b6dab282a6363829c",
+      "title": "Single element Screenshot",
+      "projectName": "Webkit",
+      "location": {
+        "file": "tests/example.spec.ts",
+        "line": 79,
+        "column": 3
+      },
+      "duration": 2913,
+      "outcome": "expected",
+      "path": [
+        "tests/example.spec.ts:79",
+        "Hooks"
+      ],
+      "results": [
+        {
+          "duration": 2913,
+          "startTime": "2023-01-05T13:16:04.658Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:16:04.659Z",
+              "duration": 2642,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2023-01-05T13:16:04.996Z",
+                  "duration": 506,
+                  "steps": []
+                },
+                {
+                  "title": "page.goto(https://example.com/)",
+                  "startTime": "2023-01-05T13:16:05.506Z",
+                  "duration": 1795,
+                  "snippet": "\u001b[0m \u001b[90m 68 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 69 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://example.com/'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m   })\u001b[0m",
+                  "steps": [],
+                  "location": {
+                    "file": "tests/example.spec.ts",
+                    "line": 69,
+                    "column": 16
+                  }
+                }
+              ]
+            },
+            {
+              "title": "page.$(h1)",
+              "startTime": "2023-01-05T13:16:07.302Z",
+              "duration": 20,
+              "snippet": "\u001b[0m \u001b[90m 80 |\u001b[39m     \u001b[90m// await page.goto('https://example.com/')\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 81 |\u001b[39m     \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 82 |\u001b[39m     \u001b[36mawait\u001b[39m element\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m'single_element_screenshot.png'\u001b[39m })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/example.spec.ts",
+                "line": 81,
+                "column": 32
+              }
+            },
+            {
+              "title": "elementHandle.screenshot",
+              "startTime": "2023-01-05T13:16:07.325Z",
+              "duration": 127,
+              "snippet": "\u001b[0m \u001b[90m 81 |\u001b[39m     \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 82 |\u001b[39m     \u001b[36mawait\u001b[39m element\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m'single_element_screenshot.png'\u001b[39m })\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 83 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/example.spec.ts",
+                "line": 82,
+                "column": 19
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:16:07.453Z",
+              "duration": 117,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2023-01-05T13:16:07.527Z",
+                  "duration": 37,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/2c781961e1a8fe291fece703f7aed30340cfea36.png"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

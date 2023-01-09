@@ -1,0 +1,678 @@
+{
+  "fileId": "fef5a4397afc73d97e180ecd1e7a8773dd2dfd3f",
+  "fileName": "tests/visual/visual.spec.ts",
+  "tests": [
+    {
+      "testId": "fef5a4397afc73d97e180ecd1e7a8773dd2dfd3f-cf6e0953070743e4032b6796c1ed9d90fc228067",
+      "title": "Full Page Snapshot",
+      "projectName": "Chromium",
+      "location": {
+        "file": "tests/visual/visual.spec.ts",
+        "line": 4,
+        "column": 3
+      },
+      "duration": 4174,
+      "outcome": "expected",
+      "path": [
+        "tests/visual/visual.spec.ts:4",
+        "Visual Regression Testing Example"
+      ],
+      "results": [
+        {
+          "duration": 4174,
+          "startTime": "2023-01-05T13:15:46.170Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:15:46.171Z",
+              "duration": 822,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2023-01-05T13:15:46.428Z",
+                  "duration": 564,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(https://www.example.com)",
+              "startTime": "2023-01-05T13:15:46.996Z",
+              "duration": 1686,
+              "snippet": "\u001b[0m \u001b[90m  4 |\u001b[39m   test(\u001b[32m'Full Page Snapshot'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  5 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m     expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'homepage.png'\u001b[39m)\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 5,
+                "column": 16
+              }
+            },
+            {
+              "title": "page.screenshot",
+              "startTime": "2023-01-05T13:15:48.683Z",
+              "duration": 137,
+              "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m     expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'homepage.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 6,
+                "column": 23
+              }
+            },
+            {
+              "title": "expect.toMatchSnapshot",
+              "startTime": "2023-01-05T13:15:48.825Z",
+              "duration": 365,
+              "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m     expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'homepage.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 6,
+                "column": 37
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:15:49.190Z",
+              "duration": 1154,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2023-01-05T13:15:49.494Z",
+                  "duration": 849,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/378cb87eb3c13b37d7ebac465206136826a40ed7.png"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "fef5a4397afc73d97e180ecd1e7a8773dd2dfd3f-3ccdd32af0750b5141745590859585ab5f34072f",
+      "title": "Single Element Snapshot",
+      "projectName": "Chromium",
+      "location": {
+        "file": "tests/visual/visual.spec.ts",
+        "line": 9,
+        "column": 3
+      },
+      "duration": 3258,
+      "outcome": "expected",
+      "path": [
+        "tests/visual/visual.spec.ts:9",
+        "Visual Regression Testing Example"
+      ],
+      "results": [
+        {
+          "duration": 3258,
+          "startTime": "2023-01-05T13:15:50.344Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:15:50.345Z",
+              "duration": 115,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2023-01-05T13:15:50.349Z",
+                  "duration": 111,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(https://www.example.com)",
+              "startTime": "2023-01-05T13:15:50.461Z",
+              "duration": 1811,
+              "snippet": "\u001b[0m \u001b[90m  9 |\u001b[39m   test(\u001b[32m'Single Element Snapshot'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 10,
+                "column": 16
+              }
+            },
+            {
+              "title": "page.$(h1)",
+              "startTime": "2023-01-05T13:15:52.272Z",
+              "duration": 33,
+              "snippet": "\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m     expect(\u001b[36mawait\u001b[39m pageElement\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'page-title.png'\u001b[39m)\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 11,
+                "column": 36
+              }
+            },
+            {
+              "title": "elementHandle.screenshot",
+              "startTime": "2023-01-05T13:15:52.306Z",
+              "duration": 51,
+              "snippet": "\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m     expect(\u001b[36mawait\u001b[39m pageElement\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'page-title.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 12,
+                "column": 30
+              }
+            },
+            {
+              "title": "expect.toMatchSnapshot",
+              "startTime": "2023-01-05T13:15:52.357Z",
+              "duration": 10,
+              "snippet": "\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m     expect(\u001b[36mawait\u001b[39m pageElement\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'page-title.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 12,
+                "column": 44
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:15:52.367Z",
+              "duration": 1235,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2023-01-05T13:15:52.485Z",
+                  "duration": 1116,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/378cb87eb3c13b37d7ebac465206136826a40ed7.png"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "fef5a4397afc73d97e180ecd1e7a8773dd2dfd3f-422481918ac574b7be8826398377846dc420c5f3",
+      "title": "Full Page Snapshot",
+      "projectName": "Firefox",
+      "location": {
+        "file": "tests/visual/visual.spec.ts",
+        "line": 4,
+        "column": 3
+      },
+      "duration": 6533,
+      "outcome": "expected",
+      "path": [
+        "tests/visual/visual.spec.ts:4",
+        "Visual Regression Testing Example"
+      ],
+      "results": [
+        {
+          "duration": 6533,
+          "startTime": "2023-01-05T13:15:54.923Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:15:54.924Z",
+              "duration": 3566,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2023-01-05T13:15:57.474Z",
+                  "duration": 1016,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(https://www.example.com)",
+              "startTime": "2023-01-05T13:15:58.491Z",
+              "duration": 1748,
+              "snippet": "\u001b[0m \u001b[90m  4 |\u001b[39m   test(\u001b[32m'Full Page Snapshot'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  5 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m     expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'homepage.png'\u001b[39m)\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 5,
+                "column": 16
+              }
+            },
+            {
+              "title": "page.screenshot",
+              "startTime": "2023-01-05T13:16:00.240Z",
+              "duration": 221,
+              "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m     expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'homepage.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 6,
+                "column": 23
+              }
+            },
+            {
+              "title": "expect.toMatchSnapshot",
+              "startTime": "2023-01-05T13:16:00.464Z",
+              "duration": 451,
+              "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m     expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'homepage.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 6,
+                "column": 37
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:16:00.916Z",
+              "duration": 540,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2023-01-05T13:16:01.125Z",
+                  "duration": 316,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/63549fc94b6b70624582e2e5f66da0f23f34f50a.png"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "fef5a4397afc73d97e180ecd1e7a8773dd2dfd3f-faa5dfe18b2a83505d108ef5e096201aa3224fab",
+      "title": "Single Element Snapshot",
+      "projectName": "Firefox",
+      "location": {
+        "file": "tests/visual/visual.spec.ts",
+        "line": 9,
+        "column": 3
+      },
+      "duration": 2731,
+      "outcome": "unexpected",
+      "path": [
+        "tests/visual/visual.spec.ts:9",
+        "Visual Regression Testing Example"
+      ],
+      "results": [
+        {
+          "duration": 2731,
+          "startTime": "2023-01-05T13:16:01.456Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:16:01.457Z",
+              "duration": 372,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2023-01-05T13:16:01.477Z",
+                  "duration": 352,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(https://www.example.com)",
+              "startTime": "2023-01-05T13:16:01.829Z",
+              "duration": 1252,
+              "snippet": "\u001b[0m \u001b[90m  9 |\u001b[39m   test(\u001b[32m'Single Element Snapshot'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 10,
+                "column": 16
+              }
+            },
+            {
+              "title": "page.$(h1)",
+              "startTime": "2023-01-05T13:16:03.081Z",
+              "duration": 23,
+              "snippet": "\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m     expect(\u001b[36mawait\u001b[39m pageElement\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'page-title.png'\u001b[39m)\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 11,
+                "column": 36
+              }
+            },
+            {
+              "title": "elementHandle.screenshot",
+              "startTime": "2023-01-05T13:16:03.105Z",
+              "duration": 257,
+              "snippet": "\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m     expect(\u001b[36mawait\u001b[39m pageElement\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'page-title.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 12,
+                "column": 30
+              }
+            },
+            {
+              "title": "expect.toMatchSnapshot",
+              "startTime": "2023-01-05T13:16:03.363Z",
+              "duration": 16,
+              "snippet": "\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m     expect(\u001b[36mawait\u001b[39m pageElement\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'page-title.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 12,
+                "column": 44
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:16:03.379Z",
+              "duration": 808,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2023-01-05T13:16:03.591Z",
+                  "duration": 585,
+                  "steps": [],
+                  "error": "browserContext.close: Protocol error (Browser.removeBrowserContext): Browser closed.\n==================== Browser output: ====================\n<launching> /Users/jyoti.kalra/Library/Caches/ms-playwright/firefox-1297/firefox/Nightly.app/Contents/MacOS/firefox -no-remote -headless -profile /var/folders/55/ljmy2rss21j12lhsy2g5ykc0mpf6lr/T/playwright_firefoxdev_profile-9b3DTB -juggler-pipe -silent\n<launched> pid=8029\n[pid=8029][err] *** You are running in headless mode.\n[pid=8029][out] \n[pid=8029][out] Juggler listening to the pipe\n[pid=8029][out] console.warn: SearchSettings: \"get: No settings file exists, new profile?\" (new NotFoundError(\"Could not open the file at /var/folders/55/ljmy2rss21j12lhsy2g5ykc0mpf6lr/T/playwright_firefoxdev_profile-9b3DTB/search.json.mozlz4\", (void 0)))\n[pid=8029][out] Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=6.75651) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt\n[pid=8029][err] Exiting due to channel error.\n[pid=8029][err] Exiting due to channel error."
+                }
+              ],
+              "error": "browserContext.close: Protocol error (Browser.removeBrowserContext): Browser closed.\n==================== Browser output: ====================\n<launching> /Users/jyoti.kalra/Library/Caches/ms-playwright/firefox-1297/firefox/Nightly.app/Contents/MacOS/firefox -no-remote -headless -profile /var/folders/55/ljmy2rss21j12lhsy2g5ykc0mpf6lr/T/playwright_firefoxdev_profile-9b3DTB -juggler-pipe -silent\n<launched> pid=8029\n[pid=8029][err] *** You are running in headless mode.\n[pid=8029][out] \n[pid=8029][out] Juggler listening to the pipe\n[pid=8029][out] console.warn: SearchSettings: \"get: No settings file exists, new profile?\" (new NotFoundError(\"Could not open the file at /var/folders/55/ljmy2rss21j12lhsy2g5ykc0mpf6lr/T/playwright_firefoxdev_profile-9b3DTB/search.json.mozlz4\", (void 0)))\n[pid=8029][out] Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=6.75651) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt\n[pid=8029][err] Exiting due to channel error.\n[pid=8029][err] Exiting due to channel error."
+            }
+          ],
+          "error": "browserContext.close: Protocol error (Browser.removeBrowserContext): Browser closed.\n==================== Browser output: ====================\n<launching> /Users/jyoti.kalra/Library/Caches/ms-playwright/firefox-1297/firefox/Nightly.app/Contents/MacOS/firefox -no-remote -headless -profile /var/folders/55/ljmy2rss21j12lhsy2g5ykc0mpf6lr/T/playwright_firefoxdev_profile-9b3DTB -juggler-pipe -silent\n<launched> pid=8029\n[pid=8029][err] *** You are running in headless mode.\n[pid=8029][out] \n[pid=8029][out] Juggler listening to the pipe\n[pid=8029][out] console.warn: SearchSettings: \"get: No settings file exists, new profile?\" (new NotFoundError(\"Could not open the file at /var/folders/55/ljmy2rss21j12lhsy2g5ykc0mpf6lr/T/playwright_firefoxdev_profile-9b3DTB/search.json.mozlz4\", (void 0)))\n[pid=8029][out] Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=6.75651) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt\n[pid=8029][err] Exiting due to channel error.\n[pid=8029][err] Exiting due to channel error.\n\n\u001b[2m    at Object.context [as fn] (/Users/jyoti.kalra/Downloads/udemy-playwright 8/node_modules/@playwright/test/lib/index.js:485:19)\u001b[22m\n\u001b[2m    at Fixture.teardown (/Users/jyoti.kalra/Downloads/udemy-playwright 8/node_modules/@playwright/test/lib/fixtures.js:101:7)\u001b[22m\n\u001b[2m    at FixtureRunner.teardownScope (/Users/jyoti.kalra/Downloads/udemy-playwright 8/node_modules/@playwright/test/lib/fixtures.js:272:11)\u001b[22m\n\u001b[2m    at WorkerRunner._runAfterHooks (/Users/jyoti.kalra/Downloads/udemy-playwright 8/node_modules/@playwright/test/lib/workerRunner.js:517:7)\u001b[22m",
+          "status": "failed",
+          "attachments": [
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/63549fc94b6b70624582e2e5f66da0f23f34f50a.png"
+            }
+          ]
+        }
+      ],
+      "ok": false
+    },
+    {
+      "testId": "fef5a4397afc73d97e180ecd1e7a8773dd2dfd3f-5277333b3e9204a2357566bd03d8dd691a9e2231",
+      "title": "Full Page Snapshot",
+      "projectName": "Webkit",
+      "location": {
+        "file": "tests/visual/visual.spec.ts",
+        "line": 4,
+        "column": 3
+      },
+      "duration": 2980,
+      "outcome": "unexpected",
+      "path": [
+        "tests/visual/visual.spec.ts:4",
+        "Visual Regression Testing Example"
+      ],
+      "results": [
+        {
+          "duration": 2980,
+          "startTime": "2023-01-05T13:16:05.282Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:16:05.283Z",
+              "duration": 808,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2023-01-05T13:16:05.644Z",
+                  "duration": 447,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(https://www.example.com)",
+              "startTime": "2023-01-05T13:16:06.093Z",
+              "duration": 1729,
+              "snippet": "\u001b[0m \u001b[90m  4 |\u001b[39m   test(\u001b[32m'Full Page Snapshot'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  5 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m     expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'homepage.png'\u001b[39m)\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 5,
+                "column": 16
+              }
+            },
+            {
+              "title": "page.screenshot",
+              "startTime": "2023-01-05T13:16:07.823Z",
+              "duration": 27,
+              "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m     expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'homepage.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 6,
+                "column": 23
+              }
+            },
+            {
+              "title": "expect.toMatchSnapshot",
+              "startTime": "2023-01-05T13:16:07.852Z",
+              "duration": 322,
+              "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m     expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'homepage.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 6,
+                "column": 37
+              },
+              "error": "\u001b[31mSnapshot comparison failed:\u001b[39m\n\nExpected: \u001b[33m/Users/jyoti.kalra/Downloads/udemy-playwright 8/test-results/tests-visual-visual-Visual-Regression-Testing-Example-Full-Page-Snapshot-Webkit/homepage-expected.png\u001b[39m\nReceived: \u001b[33m/Users/jyoti.kalra/Downloads/udemy-playwright 8/test-results/tests-visual-visual-Visual-Regression-Testing-Example-Full-Page-Snapshot-Webkit/homepage-actual.png\u001b[39m\n    Diff: \u001b[33m/Users/jyoti.kalra/Downloads/udemy-playwright 8/test-results/tests-visual-visual-Visual-Regression-Testing-Example-Full-Page-Snapshot-Webkit/homepage-diff.png\u001b[39m"
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:16:08.175Z",
+              "duration": 87,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2023-01-05T13:16:08.235Z",
+                  "duration": 24,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "Error: \u001b[31mSnapshot comparison failed:\u001b[39m\n\nExpected: \u001b[33m/Users/jyoti.kalra/Downloads/udemy-playwright 8/test-results/tests-visual-visual-Visual-Regression-Testing-Example-Full-Page-Snapshot-Webkit/homepage-expected.png\u001b[39m\nReceived: \u001b[33m/Users/jyoti.kalra/Downloads/udemy-playwright 8/test-results/tests-visual-visual-Visual-Regression-Testing-Example-Full-Page-Snapshot-Webkit/homepage-actual.png\u001b[39m\n    Diff: \u001b[33m/Users/jyoti.kalra/Downloads/udemy-playwright 8/test-results/tests-visual-visual-Visual-Regression-Testing-Example-Full-Page-Snapshot-Webkit/homepage-diff.png\u001b[39m\n\n\u001b[0m \u001b[90m 4 |\u001b[39m   test(\u001b[32m'Full Page Snapshot'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 6 |\u001b[39m     expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'homepage.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m   })\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 9 |\u001b[39m   test(\u001b[32m'Single Element Snapshot'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\n\u001b[2m    at /Users/jyoti.kalra/Downloads/udemy-playwright 8/tests/visual/visual.spec.ts:6:37\u001b[22m\n\u001b[2m    at WorkerRunner._runTestWithBeforeHooks (/Users/jyoti.kalra/Downloads/udemy-playwright 8/node_modules/@playwright/test/lib/workerRunner.js:478:7)\u001b[22m",
+          "status": "failed",
+          "attachments": [
+            {
+              "name": "expected",
+              "contentType": "image/png",
+              "path": "data/5c330c7099130075e6dcd18c0beebb431b94b28f.png"
+            },
+            {
+              "name": "actual",
+              "contentType": "image/png",
+              "path": "data/2c781961e1a8fe291fece703f7aed30340cfea36.png"
+            },
+            {
+              "name": "diff",
+              "contentType": "image/png",
+              "path": "data/8f681945af5040f21b828c3ac867e8c87446f430.png"
+            },
+            {
+              "name": "video",
+              "contentType": "video/webm",
+              "path": "data/389ee931ba1e05fc983102f970d4763df35341ac.webm"
+            },
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "data/4c421967e2ceb4d3b47b098454c70269d12da12e.zip"
+            },
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/2c781961e1a8fe291fece703f7aed30340cfea36.png"
+            }
+          ]
+        }
+      ],
+      "ok": false
+    },
+    {
+      "testId": "fef5a4397afc73d97e180ecd1e7a8773dd2dfd3f-3f3c1941419d4c18b281bce40adf26d9c00768af",
+      "title": "Single Element Snapshot",
+      "projectName": "Webkit",
+      "location": {
+        "file": "tests/visual/visual.spec.ts",
+        "line": 9,
+        "column": 3
+      },
+      "duration": 2526,
+      "outcome": "unexpected",
+      "path": [
+        "tests/visual/visual.spec.ts:9",
+        "Visual Regression Testing Example"
+      ],
+      "results": [
+        {
+          "duration": 2526,
+          "startTime": "2023-01-05T13:16:08.707Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-05T13:16:08.707Z",
+              "duration": 322,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2023-01-05T13:16:08.714Z",
+                  "duration": 315,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(https://www.example.com)",
+              "startTime": "2023-01-05T13:16:09.030Z",
+              "duration": 1991,
+              "snippet": "\u001b[0m \u001b[90m  9 |\u001b[39m   test(\u001b[32m'Single Element Snapshot'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 10,
+                "column": 16
+              }
+            },
+            {
+              "title": "page.$(h1)",
+              "startTime": "2023-01-05T13:16:11.021Z",
+              "duration": 19,
+              "snippet": "\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m     expect(\u001b[36mawait\u001b[39m pageElement\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'page-title.png'\u001b[39m)\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 11,
+                "column": 36
+              }
+            },
+            {
+              "title": "elementHandle.screenshot",
+              "startTime": "2023-01-05T13:16:11.040Z",
+              "duration": 59,
+              "snippet": "\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m     expect(\u001b[36mawait\u001b[39m pageElement\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'page-title.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 12,
+                "column": 30
+              }
+            },
+            {
+              "title": "expect.toMatchSnapshot",
+              "startTime": "2023-01-05T13:16:11.099Z",
+              "duration": 70,
+              "snippet": "\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m     expect(\u001b[36mawait\u001b[39m pageElement\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'page-title.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m   })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/visual/visual.spec.ts",
+                "line": 12,
+                "column": 44
+              },
+              "error": "\u001b[31mSnapshot comparison failed:\u001b[39m\n\nExpected: \u001b[33m/Users/jyoti.kalra/Downloads/udemy-playwright 8/test-results/tests-visual-visual-Visual-Regression-Testing-Example-Single-Element-Snapshot-Webkit/page-title-expected.png\u001b[39m\nReceived: \u001b[33m/Users/jyoti.kalra/Downloads/udemy-playwright 8/test-results/tests-visual-visual-Visual-Regression-Testing-Example-Single-Element-Snapshot-Webkit/page-title-actual.png\u001b[39m\n    Diff: \u001b[33m/Users/jyoti.kalra/Downloads/udemy-playwright 8/test-results/tests-visual-visual-Visual-Regression-Testing-Example-Single-Element-Snapshot-Webkit/page-title-diff.png\u001b[39m"
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-05T13:16:11.170Z",
+              "duration": 63,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2023-01-05T13:16:11.206Z",
+                  "duration": 23,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "Error: \u001b[31mSnapshot comparison failed:\u001b[39m\n\nExpected: \u001b[33m/Users/jyoti.kalra/Downloads/udemy-playwright 8/test-results/tests-visual-visual-Visual-Regression-Testing-Example-Single-Element-Snapshot-Webkit/page-title-expected.png\u001b[39m\nReceived: \u001b[33m/Users/jyoti.kalra/Downloads/udemy-playwright 8/test-results/tests-visual-visual-Visual-Regression-Testing-Example-Single-Element-Snapshot-Webkit/page-title-actual.png\u001b[39m\n    Diff: \u001b[33m/Users/jyoti.kalra/Downloads/udemy-playwright 8/test-results/tests-visual-visual-Visual-Regression-Testing-Example-Single-Element-Snapshot-Webkit/page-title-diff.png\u001b[39m\n\n\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.example.com'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m'h1'\u001b[39m)\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 |\u001b[39m     expect(\u001b[36mawait\u001b[39m pageElement\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'page-title.png'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m   })\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m })\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/jyoti.kalra/Downloads/udemy-playwright 8/tests/visual/visual.spec.ts:12:44\u001b[22m\n\u001b[2m    at WorkerRunner._runTestWithBeforeHooks (/Users/jyoti.kalra/Downloads/udemy-playwright 8/node_modules/@playwright/test/lib/workerRunner.js:478:7)\u001b[22m",
+          "status": "failed",
+          "attachments": [
+            {
+              "name": "expected",
+              "contentType": "image/png",
+              "path": "data/1296aacf76998f417b96f9e142e07a3318f9a89f.png"
+            },
+            {
+              "name": "actual",
+              "contentType": "image/png",
+              "path": "data/b80114951decf86de72d9aa2a00c3e1a8a544ff5.png"
+            },
+            {
+              "name": "diff",
+              "contentType": "image/png",
+              "path": "data/0f5173d43216d69ee1a2e43a253936a8a7917d34.png"
+            },
+            {
+              "name": "video",
+              "contentType": "video/webm",
+              "path": "data/366649b4d78ff83a44c43b80cf2e7d52cd080f77.webm"
+            },
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "data/7bccff876b4e2888fd830249aa95f714d4074596.zip"
+            },
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/2c781961e1a8fe291fece703f7aed30340cfea36.png"
+            }
+          ]
+        }
+      ],
+      "ok": false
+    }
+  ]
+}

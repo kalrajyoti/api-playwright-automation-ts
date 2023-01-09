@@ -1,0 +1,22 @@
+{
+  "name": "udemy-playwright",
+  "version": "1.0.0",
+  "description": "Automated software testing with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "tests:chrome": "playwright test --config=playwright.config.ts --project=Chromium",
+    "tests:firefox": "playwright test --config=playwright.config.ts --project=Firefox",
+    "tests:webkit": "playwright test --config=playwright.config.ts --project=Webkit",
+    "tests:api": "playwright test --config=api.config.ts --project=Chromium",
+    "report":"npx playwright test tests/api/servicenow.spec.ts --config=playwright.config.ts --project=Chromium --reporter=html && npx playwright show-report",
+    "test":"npx playwright test ",
+    "debug":"npx playwright test --debug"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.16.1",
+    "prettier": "^2.5.0"
+  }
+}
