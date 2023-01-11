@@ -12,16 +12,18 @@ Clone the project to your machine:
 git clone https://github.com/kalrajyoti/udemy-playwright-8.git
 ```
 
-## Install Node/NPM/NVM
-
+#### Install Node/NPM/NVM
+```
  you can install from here https://nodejs.org/en/download/
 
-```
-## Install Playwright from VSCode
+ ```
+
+##### Install Playwright from VSCode
+
 
 ```
-First go to VSCode Extension and search the playwright and install it.
-Then open CMD+Shift+P which will open command bar in vs code and type playwright and hit enter
+ First go to VSCode Extension and search the playwright and install it.
+ Then open CMD+Shift+P which will open command bar in vs code and type playwright and hit enter
 
 Once installed you will get:
 
@@ -39,6 +41,3 @@ cd ~/Projects/api-automation
 npm init playwright@latest
 ```
 
-The initializer will prompt you with several questions. Accept all the defaults by hitting `Enter` for all of them:
-
-![init](img/playwrightinit.png)
