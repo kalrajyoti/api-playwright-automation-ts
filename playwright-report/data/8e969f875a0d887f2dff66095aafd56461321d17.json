@@ -1,0 +1,320 @@
+{
+  "fileId": "8e969f875a0d887f2dff66095aafd56461321d17",
+  "fileName": "tests/api/servicenow.spec.ts",
+  "tests": [
+    {
+      "testId": "8e969f875a0d887f2dff66095aafd56461321d17-7e0988113e910e6ceceac0d488ec511887092756",
+      "title": "focus this test",
+      "projectName": "Chromium",
+      "location": {
+        "file": "tests/api/servicenow.spec.ts",
+        "line": 7,
+        "column": 1
+      },
+      "duration": 9,
+      "outcome": "expected",
+      "path": [
+        "tests/api/servicenow.spec.ts:7"
+      ],
+      "results": [
+        {
+          "duration": 9,
+          "startTime": "2023-01-11T09:36:30.689Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-11T09:36:30.690Z",
+              "duration": 6,
+              "steps": []
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-11T09:36:30.696Z",
+              "duration": 2,
+              "steps": []
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": []
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "8e969f875a0d887f2dff66095aafd56461321d17-fe98837e828edee426e507229463a0981e4f5f46",
+      "title": "Create an Incident",
+      "projectName": "Chromium",
+      "location": {
+        "file": "tests/api/servicenow.spec.ts",
+        "line": 11,
+        "column": 1
+      },
+      "duration": 1792,
+      "outcome": "expected",
+      "path": [
+        "tests/api/servicenow.spec.ts:11"
+      ],
+      "results": [
+        {
+          "duration": 1792,
+          "startTime": "2023-01-11T09:36:30.698Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-11T09:36:30.698Z",
+              "duration": 1,
+              "steps": []
+            },
+            {
+              "title": "expect.toBe",
+              "startTime": "2023-01-11T09:36:32.484Z",
+              "duration": 0,
+              "snippet": "\u001b[0m \u001b[90m 19 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mok())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/api/servicenow.spec.ts",
+                "line": 20,
+                "column": 32
+              }
+            },
+            {
+              "title": "expect.toBeTruthy",
+              "startTime": "2023-01-11T09:36:32.484Z",
+              "duration": 1,
+              "snippet": "\u001b[0m \u001b[90m 20 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mok())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/api/servicenow.spec.ts",
+                "line": 21,
+                "column": 28
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-11T09:36:32.489Z",
+              "duration": 1,
+              "steps": []
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "stdout",
+              "contentType": "text/plain",
+              "body": "{\n  result: {\n    parent: \u001b[32m''\u001b[39m,\n    made_sla: \u001b[32m'true'\u001b[39m,\n    caused_by: \u001b[32m''\u001b[39m,\n    watch_list: \u001b[32m''\u001b[39m,\n    upon_reject: \u001b[32m'cancel'\u001b[39m,\n    sys_updated_on: \u001b[32m'2023-01-11 09:36:32'\u001b[39m,\n    child_incidents: \u001b[32m'0'\u001b[39m,\n    hold_reason: \u001b[32m''\u001b[39m,\n    origin_table: \u001b[32m''\u001b[39m,\n    task_effective_number: \u001b[32m'INC0010044'\u001b[39m,\n    approval_history: \u001b[32m''\u001b[39m,\n    number: \u001b[32m'INC0010044'\u001b[39m,\n    resolved_by: \u001b[32m''\u001b[39m,\n    sys_updated_by: \u001b[32m'admin'\u001b[39m,\n    opened_by: {\n      link: \u001b[32m'https://dev137904.service-now.com/api/now/table/sys_user/6816f79cc0a8016401c5a33be04be441'\u001b[39m,\n      value: \u001b[32m'6816f79cc0a8016401c5a33be04be441'\u001b[39m\n    },\n    user_input: \u001b[32m''\u001b[39m,\n    sys_created_on: \u001b[32m'2023-01-11 09:36:32'\u001b[39m,\n    sys_domain: {\n      link: \u001b[32m'https://dev137904.service-now.com/api/now/table/sys_user_group/global'\u001b[39m,\n      value: \u001b[32m'global'\u001b[39m\n    },\n    state: \u001b[32m'1'\u001b[39m,\n    route_reason: \u001b[32m''\u001b[39m,\n    sys_created_by: \u001b[32m'admin'\u001b[39m,\n    knowledge: \u001b[32m'false'\u001b[39m,\n    order: \u001b[32m''\u001b[39m,\n    calendar_stc: \u001b[32m''\u001b[39m,\n    closed_at: \u001b[32m''\u001b[39m,\n    cmdb_ci: \u001b[32m''\u001b[39m,\n    delivery_plan: \u001b[32m''\u001b[39m,\n    contract: \u001b[32m''\u001b[39m,\n    impact: \u001b[32m'3'\u001b[39m,\n    active: \u001b[32m'true'\u001b[39m,\n    work_notes_list: \u001b[32m''\u001b[39m,\n    business_service: \u001b[32m''\u001b[39m,\n    business_impact: \u001b[32m''\u001b[39m,\n    priority: \u001b[32m'5'\u001b[39m,\n    sys_domain_path: \u001b[32m'/'\u001b[39m,\n    rfc: \u001b[32m''\u001b[39m,\n    time_worked: \u001b[32m''\u001b[39m,\n    expected_start: \u001b[32m''\u001b[39m,\n    opened_at: \u001b[32m'2023-01-11 09:36:32'\u001b[39m,\n    business_duration: \u001b[32m''\u001b[39m,\n    group_list: \u001b[32m''\u001b[39m,\n    work_end: \u001b[32m''\u001b[39m,\n    caller_id: \u001b[32m''\u001b[39m,\n    reopened_time: \u001b[32m''\u001b[39m,\n    resolved_at: \u001b[32m''\u001b[39m,\n    approval_set: \u001b[32m''\u001b[39m,\n    subcategory: \u001b[32m''\u001b[39m,\n    work_notes: \u001b[32m''\u001b[39m,\n    universal_request: \u001b[32m''\u001b[39m,\n    short_description: \u001b[32m'required ms office 365'\u001b[39m,\n    close_code: \u001b[32m''\u001b[39m,\n    correlation_display: \u001b[32m''\u001b[39m,\n    delivery_task: \u001b[32m''\u001b[39m,\n    work_start: \u001b[32m''\u001b[39m,\n    assignment_group: \u001b[32m''\u001b[39m,\n    additional_assignee_list: \u001b[32m''\u001b[39m,\n    business_stc: \u001b[32m''\u001b[39m,\n    cause: \u001b[32m''\u001b[39m,\n    description: \u001b[32m''\u001b[39m,\n    origin_id: \u001b[32m''\u001b[39m,\n    calendar_duration: \u001b[32m''\u001b[39m,\n    close_notes: \u001b[32m''\u001b[39m,\n    notify: \u001b[32m'1'\u001b[39m,\n    service_offering: \u001b[32m''\u001b[39m,\n    sys_class_name: \u001b[32m'incident'\u001b[39m,\n    closed_by: \u001b[32m''\u001b[39m,\n    follow_up: \u001b[32m''\u001b[39m,\n    parent_incident: \u001b[32m''\u001b[39m,\n    sys_id: \u001b[32m'fc24ddc2479c211023b8c88bd36d43f8'\u001b[39m,\n    contact_type: \u001b[32m''\u001b[39m,\n    reopened_by: \u001b[32m''\u001b[39m,\n    incident_state: \u001b[32m'1'\u001b[39m,\n    urgency: \u001b[32m'3'\u001b[39m,\n    problem_id: \u001b[32m''\u001b[39m,\n    company: \u001b[32m''\u001b[39m,\n    reassignment_count: \u001b[32m'0'\u001b[39m,\n    activity_due: \u001b[32m''\u001b[39m,\n    assigned_to: \u001b[32m''\u001b[39m,\n    severity: \u001b[32m'3'\u001b[39m,\n    comments: \u001b[32m''\u001b[39m,\n    approval: \u001b[32m'not requested'\u001b[39m,\n    sla_due: \u001b[32m''\u001b[39m,\n    comments_and_work_notes: \u001b[32m''\u001b[39m,\n    due_date: \u001b[32m''\u001b[39m,\n    sys_mod_count: \u001b[32m'0'\u001b[39m,\n    reopen_count: \u001b[32m'0'\u001b[39m,\n    sys_tags: \u001b[32m''\u001b[39m,\n    escalation: \u001b[32m'0'\u001b[39m,\n    upon_approval: \u001b[32m'proceed'\u001b[39m,\n    correlation_id: \u001b[32m''\u001b[39m,\n    location: \u001b[32m''\u001b[39m,\n    category: \u001b[32m'hardware'\u001b[39m\n  }\n}\n"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "8e969f875a0d887f2dff66095aafd56461321d17-11814e7b632e3155ae639c5ea541503663e683c8",
+      "title": "Get an Incident",
+      "projectName": "Chromium",
+      "location": {
+        "file": "tests/api/servicenow.spec.ts",
+        "line": 29,
+        "column": 1
+      },
+      "duration": 1423,
+      "outcome": "expected",
+      "path": [
+        "tests/api/servicenow.spec.ts:29"
+      ],
+      "results": [
+        {
+          "duration": 1423,
+          "startTime": "2023-01-11T09:36:32.490Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-11T09:36:32.490Z",
+              "duration": 1,
+              "steps": []
+            },
+            {
+              "title": "expect.toBe",
+              "startTime": "2023-01-11T09:36:33.910Z",
+              "duration": 0,
+              "snippet": "\u001b[0m \u001b[90m 36 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m     expect(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mtoMatchObject({\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/api/servicenow.spec.ts",
+                "line": 37,
+                "column": 32
+              }
+            },
+            {
+              "title": "expect.toMatchObject",
+              "startTime": "2023-01-11T09:36:33.912Z",
+              "duration": 1,
+              "snippet": "\u001b[0m \u001b[90m 37 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m     expect(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mtoMatchObject({\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m         result\u001b[33m:\u001b[39m [{ short_description\u001b[33m:\u001b[39m \u001b[32m'mac is not working'\u001b[39m\u001b[33m,\u001b[39m category\u001b[33m:\u001b[39m \u001b[32m'inquiry'\u001b[39m }]\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/api/servicenow.spec.ts",
+                "line": 38,
+                "column": 36
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-11T09:36:33.913Z",
+              "duration": 0,
+              "steps": []
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "stdout",
+              "contentType": "text/plain",
+              "body": "{\n  result: [ { short_description: \u001b[32m'mac is not working'\u001b[39m, category: \u001b[32m'inquiry'\u001b[39m } ]\n}\n"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "8e969f875a0d887f2dff66095aafd56461321d17-0d08a267daa0bce3b80c3160722bdd7a89249c75",
+      "title": "Put(Modify) an Incident",
+      "projectName": "Chromium",
+      "location": {
+        "file": "tests/api/servicenow.spec.ts",
+        "line": 45,
+        "column": 1
+      },
+      "duration": 1516,
+      "outcome": "expected",
+      "path": [
+        "tests/api/servicenow.spec.ts:45"
+      ],
+      "results": [
+        {
+          "duration": 1516,
+          "startTime": "2023-01-11T09:36:33.913Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-11T09:36:33.914Z",
+              "duration": 0,
+              "steps": []
+            },
+            {
+              "title": "expect.toBe",
+              "startTime": "2023-01-11T09:36:35.428Z",
+              "duration": 0,
+              "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m _response\u001b[33m.\u001b[39mjson())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 53 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 54 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mok())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/api/servicenow.spec.ts",
+                "line": 53,
+                "column": 32
+              }
+            },
+            {
+              "title": "expect.toBeTruthy",
+              "startTime": "2023-01-11T09:36:35.428Z",
+              "duration": 0,
+              "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 54 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mok())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 55 |\u001b[39m })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/api/servicenow.spec.ts",
+                "line": 54,
+                "column": 28
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-11T09:36:35.428Z",
+              "duration": 1,
+              "steps": []
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "stdout",
+              "contentType": "text/plain",
+              "body": "{\n  result: {\n    parent: \u001b[32m''\u001b[39m,\n    made_sla: \u001b[32m'true'\u001b[39m,\n    caused_by: \u001b[32m''\u001b[39m,\n    watch_list: \u001b[32m''\u001b[39m,\n    upon_reject: \u001b[32m'cancel'\u001b[39m,\n    sys_updated_on: \u001b[32m'2023-01-11 09:36:35'\u001b[39m,\n    child_incidents: \u001b[32m'0'\u001b[39m,\n    hold_reason: \u001b[32m''\u001b[39m,\n    origin_table: \u001b[32m''\u001b[39m,\n    task_effective_number: \u001b[32m'INC0010044'\u001b[39m,\n    approval_history: \u001b[32m''\u001b[39m,\n    number: \u001b[32m'INC0010044'\u001b[39m,\n    resolved_by: \u001b[32m''\u001b[39m,\n    sys_updated_by: \u001b[32m'admin'\u001b[39m,\n    opened_by: {\n      link: \u001b[32m'https://dev137904.service-now.com/api/now/table/sys_user/6816f79cc0a8016401c5a33be04be441'\u001b[39m,\n      value: \u001b[32m'6816f79cc0a8016401c5a33be04be441'\u001b[39m\n    },\n    user_input: \u001b[32m''\u001b[39m,\n    sys_created_on: \u001b[32m'2023-01-11 09:36:32'\u001b[39m,\n    sys_domain: {\n      link: \u001b[32m'https://dev137904.service-now.com/api/now/table/sys_user_group/global'\u001b[39m,\n      value: \u001b[32m'global'\u001b[39m\n    },\n    state: \u001b[32m'1'\u001b[39m,\n    route_reason: \u001b[32m''\u001b[39m,\n    sys_created_by: \u001b[32m'admin'\u001b[39m,\n    knowledge: \u001b[32m'false'\u001b[39m,\n    order: \u001b[32m''\u001b[39m,\n    calendar_stc: \u001b[32m''\u001b[39m,\n    closed_at: \u001b[32m''\u001b[39m,\n    cmdb_ci: \u001b[32m''\u001b[39m,\n    delivery_plan: \u001b[32m''\u001b[39m,\n    contract: \u001b[32m''\u001b[39m,\n    impact: \u001b[32m'3'\u001b[39m,\n    active: \u001b[32m'true'\u001b[39m,\n    work_notes_list: \u001b[32m''\u001b[39m,\n    business_service: \u001b[32m''\u001b[39m,\n    business_impact: \u001b[32m''\u001b[39m,\n    priority: \u001b[32m'5'\u001b[39m,\n    sys_domain_path: \u001b[32m'/'\u001b[39m,\n    rfc: \u001b[32m''\u001b[39m,\n    time_worked: \u001b[32m''\u001b[39m,\n    expected_start: \u001b[32m''\u001b[39m,\n    opened_at: \u001b[32m'2023-01-11 09:36:32'\u001b[39m,\n    business_duration: \u001b[32m''\u001b[39m,\n    group_list: \u001b[32m''\u001b[39m,\n    work_end: \u001b[32m''\u001b[39m,\n    caller_id: \u001b[32m''\u001b[39m,\n    reopened_time: \u001b[32m''\u001b[39m,\n    resolved_at: \u001b[32m''\u001b[39m,\n    approval_set: \u001b[32m''\u001b[39m,\n    subcategory: \u001b[32m''\u001b[39m,\n    work_notes: \u001b[32m''\u001b[39m,\n    universal_request: \u001b[32m''\u001b[39m,\n    short_description: \u001b[32m'Very boring tutorial'\u001b[39m,\n    close_code: \u001b[32m''\u001b[39m,\n    correlation_display: \u001b[32m''\u001b[39m,\n    delivery_task: \u001b[32m''\u001b[39m,\n    work_start: \u001b[32m''\u001b[39m,\n    assignment_group: \u001b[32m''\u001b[39m,\n    additional_assignee_list: \u001b[32m''\u001b[39m,\n    business_stc: \u001b[32m''\u001b[39m,\n    cause: \u001b[32m''\u001b[39m,\n    description: \u001b[32m''\u001b[39m,\n    origin_id: \u001b[32m''\u001b[39m,\n    calendar_duration: \u001b[32m''\u001b[39m,\n    close_notes: \u001b[32m''\u001b[39m,\n    notify: \u001b[32m'1'\u001b[39m,\n    service_offering: \u001b[32m''\u001b[39m,\n    sys_class_name: \u001b[32m'incident'\u001b[39m,\n    closed_by: \u001b[32m''\u001b[39m,\n    follow_up: \u001b[32m''\u001b[39m,\n    parent_incident: \u001b[32m''\u001b[39m,\n    sys_id: \u001b[32m'fc24ddc2479c211023b8c88bd36d43f8'\u001b[39m,\n    contact_type: \u001b[32m''\u001b[39m,\n    reopened_by: \u001b[32m''\u001b[39m,\n    incident_state: \u001b[32m'1'\u001b[39m,\n    urgency: \u001b[32m'3'\u001b[39m,\n    problem_id: \u001b[32m''\u001b[39m,\n    company: \u001b[32m''\u001b[39m,\n    reassignment_count: \u001b[32m'0'\u001b[39m,\n    activity_due: \u001b[32m''\u001b[39m,\n    assigned_to: \u001b[32m''\u001b[39m,\n    severity: \u001b[32m'3'\u001b[39m,\n    comments: \u001b[32m''\u001b[39m,\n    approval: \u001b[32m'not requested'\u001b[39m,\n    sla_due: \u001b[32m''\u001b[39m,\n    comments_and_work_notes: \u001b[32m''\u001b[39m,\n    due_date: \u001b[32m''\u001b[39m,\n    sys_mod_count: \u001b[32m'1'\u001b[39m,\n    reopen_count: \u001b[32m'0'\u001b[39m,\n    sys_tags: \u001b[32m''\u001b[39m,\n    escalation: \u001b[32m'0'\u001b[39m,\n    upon_approval: \u001b[32m'proceed'\u001b[39m,\n    correlation_id: \u001b[32m''\u001b[39m,\n    location: \u001b[32m''\u001b[39m,\n    category: \u001b[32m'software'\u001b[39m\n  }\n}\n"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "8e969f875a0d887f2dff66095aafd56461321d17-5f882f1b9190527374e6904a7cdf2d4b663e5efa",
+      "title": "Delete an Incident",
+      "projectName": "Chromium",
+      "location": {
+        "file": "tests/api/servicenow.spec.ts",
+        "line": 58,
+        "column": 1
+      },
+      "duration": 1402,
+      "outcome": "expected",
+      "path": [
+        "tests/api/servicenow.spec.ts:58"
+      ],
+      "results": [
+        {
+          "duration": 1402,
+          "startTime": "2023-01-11T09:36:35.429Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-01-11T09:36:35.429Z",
+              "duration": 1,
+              "steps": []
+            },
+            {
+              "title": "expect.toBe",
+              "startTime": "2023-01-11T09:36:36.829Z",
+              "duration": 1,
+              "snippet": "\u001b[0m \u001b[90m 60 |\u001b[39m     \u001b[90m// console.log(await _response.json());\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 61 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m204\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 62 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mok())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/api/servicenow.spec.ts",
+                "line": 61,
+                "column": 32
+              }
+            },
+            {
+              "title": "expect.toBeTruthy",
+              "startTime": "2023-01-11T09:36:36.830Z",
+              "duration": 0,
+              "snippet": "\u001b[0m \u001b[90m 61 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m204\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 62 |\u001b[39m     expect(_response\u001b[33m.\u001b[39mok())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 63 |\u001b[39m })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/api/servicenow.spec.ts",
+                "line": 62,
+                "column": 28
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-01-11T09:36:36.830Z",
+              "duration": 1,
+              "steps": []
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": []
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

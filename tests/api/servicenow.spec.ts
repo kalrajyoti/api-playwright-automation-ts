@@ -4,7 +4,7 @@ let _number: number;
 let _sys_id: string;
 const short_description = "required ms office 365"
 // Create
-test.only('focus this test', async ({ request }) => {
+test('focus this test', async ({ request }) => {
     // Run only focused tests in the entire project.
   });
 
@@ -26,7 +26,7 @@ test("Create an Incident", async ({ request, baseURL }) => {
 
 })
 
-test.only("Get an Incident", async ({ request, baseURL }) => {
+test("Get an Incident", async ({ request, baseURL }) => {
     const _response = await request.get(`${baseURL}`, {
         params: {
             task_effective_number: 'INC0010010',
